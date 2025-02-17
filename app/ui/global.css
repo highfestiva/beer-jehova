@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.beer-swimlane-item-text {
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+  font-weight: bold;
+}
