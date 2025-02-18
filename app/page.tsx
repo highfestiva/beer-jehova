@@ -1,7 +1,7 @@
 import JvolLogo from '@/app/ui/jvol-logo';
 import CarlsbergHeader from '@/app/ui/carlsberg-header';
 import BeerPick from '@/app/ui/beer-pick';
-import BeerSwimlane from '@/app/ui/beer-swimlane';
+import ProductSwimlane from '@/app/ui/product-swimlane';
 
 export default function Page() {
   return (
@@ -15,7 +15,7 @@ export default function Page() {
       </div>
 
       <div className="mt-10">
-        { <BeerSwimlane /> }
+        { <ProductSwimlane /> }
       </div>
     </main>
   );

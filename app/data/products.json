@@ -1,0 +1,242 @@
+[
+  {
+    "name": "harboe_pilsner_4_6_",
+    "display": "HARBOE PILSNER 4,6%",
+    "type": "lager",
+    "price": 25.2
+  },
+  {
+    "name": "tuborg_classic_4_6_",
+    "display": "TUBORG CLASSIC 4,6%",
+    "type": "lager",
+    "price": 36
+  },
+  {
+    "name": "gron_tuborg_4_6_",
+    "display": "GRØN TUBORG 4,6%",
+    "type": "lager",
+    "price": 6
+  },
+  {
+    "name": "harboe_4_6_",
+    "display": "HARBOE 4,6%",
+    "type": "lager",
+    "price": 27
+  },
+  {
+    "name": "tuborg_classic_4_6_",
+    "display": "TUBORG CLASSIC 4,6%",
+    "type": "lager",
+    "price": 6
+  },
+  {
+    "name": "classic_4_6_",
+    "display": "CLASSIC 4,6%",
+    "type": "lager",
+    "price": 4.5
+  },
+  {
+    "name": "harboe_4_6_",
+    "display": "HARBOE 4,6%",
+    "type": "lager",
+    "price": 4.2
+  },
+  {
+    "name": "royal_export_5_4_",
+    "display": "ROYAL EXPORT 5,4%",
+    "type": "lager",
+    "price": 41.1
+  },
+  {
+    "name": "heineken_4_6_",
+    "display": "HEINEKEN 4,6%",
+    "type": "lager",
+    "price": 37.8
+  },
+  {
+    "name": "pilsner_4_6_",
+    "display": "PILSNER 4,6%",
+    "type": "lager",
+    "price": 42.6
+  },
+  {
+    "name": "pilsner_4_6_",
+    "display": "PILSNER 4,6%",
+    "type": "lager",
+    "price": 7.1
+  },
+  {
+    "name": "harboe_pilsner",
+    "display": "HARBOE PILSNER",
+    "type": "lager",
+    "price": 25.2
+  },
+  {
+    "name": "harboe_guldol_5_7_",
+    "display": "HARBOE GULDØL 5,7%",
+    "type": "lager",
+    "price": 37.2
+  },
+  {
+    "name": "heineken_4_6_",
+    "display": "HEINEKEN 4,6%",
+    "type": "lager",
+    "price": 6.3
+  },
+  {
+    "name": "royal_export_5_4_",
+    "display": "ROYAL EXPORT 5,4%",
+    "type": "lager",
+    "price": 6.85
+  },
+  {
+    "name": "pilsner_4_4_",
+    "display": "PILSNER 4,4%",
+    "type": "lager",
+    "price": 3.5
+  },
+  {
+    "name": "carlsberg_pilsner_4_6_",
+    "display": "CARLSBERG PILSNER 4,6%",
+    "type": "lager",
+    "price": 14.75
+  },
+  {
+    "name": "gron_tuborg_4_6_",
+    "display": "GRØN TUBORG 4,6%",
+    "type": "lager",
+    "price": 14.75
+  },
+  {
+    "name": "carlsberg_4_6_",
+    "display": "CARLSBERG 4,6%",
+    "type": "lager",
+    "price": 59
+  },
+  {
+    "name": "gram_slot_classic_4_8_",
+    "display": "GRAM SLOT CLASSIC 4,8%",
+    "type": "lager",
+    "price": 13.5
+  },
+  {
+    "name": "harboe_pilsner",
+    "display": "HARBOE PILSNER",
+    "type": "lager",
+    "price": 4.2
+  },
+  {
+    "name": "gram_slot_pilsner_4_8_",
+    "display": "GRAM SLOT PILSNER 4,8%",
+    "type": "lager",
+    "price": 13.5
+  },
+  {
+    "name": "tuborg_guld_5_6_",
+    "display": "TUBORG GULD 5,6%",
+    "type": "lager",
+    "price": 16.75
+  },
+  {
+    "name": "gron_tuborg_4_6_",
+    "display": "GRØN TUBORG 4,6%",
+    "type": "lager",
+    "price": 4.5
+  },
+  {
+    "name": "paskebryg_5_7_",
+    "display": "PÅSKEBRYG 5,7%",
+    "type": "lager",
+    "price": 37.2
+  },
+  {
+    "name": "royal_export_5_4_",
+    "display": "ROYAL EXPORT 5,4%",
+    "type": "lager",
+    "price": 15.75
+  },
+  {
+    "name": "ale_no_16_5_7_",
+    "display": "ALE NO 16 5,7%",
+    "type": "lager",
+    "price": 15
+  },
+  {
+    "name": "tuborg_4_6_",
+    "display": "TUBORG 4,6%",
+    "type": "lager",
+    "price": 4.6
+  },
+  {
+    "name": "harboe_guldol_5_7_",
+    "display": "HARBOE GULDØL 5,7%",
+    "type": "lager",
+    "price": 6.2
+  },
+  {
+    "name": "gron_tuborg_4_6_",
+    "display": "GRØN TUBORG 4,6%",
+    "type": "lager",
+    "price": 59
+  },
+  {
+    "name": "heineken_4_6_",
+    "display": "HEINEKEN 4,6%",
+    "type": "lager",
+    "price": 14.5
+  },
+  {
+    "name": "carlsberg_4_6_",
+    "display": "CARLSBERG 4,6%",
+    "type": "lager",
+    "price": 4.5
+  },
+  {
+    "name": "tuborg_classic_4_6_",
+    "display": "TUBORG CLASSIC 4,6%",
+    "type": "lager",
+    "price": 15.25
+  },
+  {
+    "name": "tuborg_guld_5_6_",
+    "display": "TUBORG GULD 5,6%",
+    "type": "lager",
+    "price": 50.4
+  },
+  {
+    "name": "royal_blanche_4_6_",
+    "display": "ROYAL BLANCHE 4,6%",
+    "type": "lager",
+    "price": 7
+  },
+  {
+    "name": "gron_tuborg_4_6_",
+    "display": "GRØN TUBORG 4,6%",
+    "type": "lager",
+    "price": 36
+  },
+  {
+    "name": "tuborg_classic_4_6_",
+    "display": "TUBORG CLASSIC 4,6%",
+    "type": "lager",
+    "price": 15.25
+  },
+  {
+    "name": "1001070000_D_cvr_xs",
+    "display": "Bibelen (Studieudgave)",
+    "type": "bible",
+    "price": 149
+  },
+  {
+    "name": "nwt_D_xs",
+    "display": "Bibelen (2017-udgaven)",
+    "type": "bible",
+    "price": 149
+  },
+  {
+    "name": "bi12_D_xs",
+    "display": "De Hellige Skrifter (1993-udgaven)",
+    "type": "bible",
+    "price": 149
+  }
+]

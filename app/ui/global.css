@@ -19,15 +19,24 @@ input[type='number']::-webkit-outer-spin-button {
   transition: transform .2s;
 }
 
-.zoom:hover {
+.zoom:hover, .zoom:has(+p:hover), .zoom:has(+h4:hover) {
   transform: scale(1.2);
 }
 
-.beer-swimlane-item-text {
+.product-swimlane-item-text {
   z-index: 10;
   left: 0;
   right: 0;
   margin-inline: auto;
   width: fit-content;
   font-weight: bold;
+}
+
+.round-button {
+  z-index: 20;
+  border-radius: 100;
+  background-color: rgb(230, 198, 172);
+  border: 1px solid rgb(202, 128, 79);
+  width: 3em;
+  height: 3em;
 }

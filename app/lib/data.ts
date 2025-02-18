@@ -1,24 +1,5 @@
-export const products = [
-  {
-    name: 'carlsberg',
-    display: 'Carlsberg',
-    type: 'lager',
-    price: 12.5,
-  },
-  {
-    name: 'carlsberg',
-    display: 'Falcon',
-    type: 'lager',
-    price: 13.0,
-  },
-  {
-    name: 'carlsberg',
-    display: 'Den andre',
-    type: 'lager',
-    price: 10.0,
-  },
-];
-
+import products from '../data/products.json'
+import { shuffleArray } from './utils';
 
 export const mainCategories = [
   {
@@ -42,6 +23,11 @@ export const mainCategories = [
   {
     name: 'weiss',
     className: 'hidden xl:block',
+    textClassName: 'bg-white/70',
     display: 'Hvedeøl'
   },
 ];
+
+export function getProducts(): any[] {
+  return shuffleArray(products);
+}

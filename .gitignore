@@ -37,3 +37,4 @@ next-env.d.ts
 
 # photoshop and internal docs
 /internals/
+/public/products/
