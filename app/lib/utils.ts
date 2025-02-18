@@ -1,13 +1,16 @@
+import { PRNG } from './prng';
+
 export const formatCurrency = (amount: number) => {
-  return (amount / 100).toLocaleString('en-US', {
+  return amount.toLocaleString('da-DK', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'DKK',
   });
 };
 
 export function shuffleArrayInplace(arr: any[]) {
+  const rng = new PRNG(101);
   for (var i = arr.length - 1; i >= 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
+      var j = rng.nextRange(0, i);
       var temp = arr[i];
       arr[i] = arr[j];
       arr[j] = temp;

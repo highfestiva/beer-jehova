@@ -15,7 +15,7 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
-.zoom {
+.zoom, .zoom:hover+p, .zoom:hover+h4 {
   transition: transform .2s;
 }
 
@@ -23,13 +23,26 @@ input[type='number']::-webkit-outer-spin-button {
   transform: scale(1.2);
 }
 
+.zoom:hover+p, .zoom:hover+h4 {
+  transform: scale(1.05);
+}
+
 .product-swimlane-item-text {
   z-index: 10;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
-  width: fit-content;
   font-weight: bold;
+  text-align: center;
+  background-color: #fffb;
+}
+
+.product-swimlane-item-price {
+  z-index: 10;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+  text-align: right;
+  background-color: #fffb;
+  color: rgb(69, 106, 150);
+  font-size: 28px;
 }
 
 .round-button {

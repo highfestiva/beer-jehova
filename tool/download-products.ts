@@ -6,7 +6,12 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import * as fs from "fs";
 
-const imgHeight = 120;
+const imgHeight = 96;
+const beerTypes = ['lager', 'ale', 'stout', 'ipa', 'weiss'];
+
+function randomChoice(arr: string[]) {
+    return arr[Math.floor(arr.length * Math.random())];
+}
 
 async function scrapeBeers(numBeers: number = 5) {
     const url = 'https://flwdn2189e-dsn.algolia.net/1/indexes/aws-prod-products/query?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%203.21.1&x-algolia-application-id=FLWDN2189E&x-algolia-api-key=fa20981a63df668e871a87a8fbd0caed'
@@ -28,13 +33,13 @@ async function scrapeBeers(numBeers: number = 5) {
         axios
             .get(imgUrl, {responseType: 'stream'})
             .then(res => {
-                res.data.pipe(fs.createWriteStream(`../public/product/${shortName}.jpg`));
+                res.data.pipe(fs.createWriteStream(`../public/products/${shortName}.jpg`));
             });
         // compose product
         const product = {
             name: shortName,
             display: beer['name'],
-            type: 'lager',
+            type: randomChoice(beerTypes),
             price: beer['pricing']['price'],
         }
         products.push(product);
@@ -103,7 +108,7 @@ function saveProducts(products: any[]) {
 
 async function scrapeAll() {
     console.log('Scraping beers...');
-    const beers = await scrapeBeers(40);
+    const beers = await scrapeBeers(50);
     console.log('Scraping bibles...');
     const bibles = await scrapeBibles();
     const products = beers.concat(bibles);
