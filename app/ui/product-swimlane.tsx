@@ -5,7 +5,7 @@ import { inter, lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getProducts } from '@/app/lib/data';
-import { formatCurrency } from '@/app/lib/utils';
+import { formatCurrency } from '@/app/lib/currency';
 
 export default function ProductSwimlane() {
   const scrollRef = useRef<HTMLUListElement | null>(null);
@@ -44,7 +44,7 @@ export default function ProductSwimlane() {
             return (
               <li
                 key={`product-${index}`}
-                className="relative w-40 h-55 p-2 m-2 rounded-lg relative shrink-0"
+                className="relative w-30 h-52 rounded-lg relative shrink-0"
               >
                 <Link
                   href={`/product/${product.name}`}
@@ -57,7 +57,7 @@ export default function ProductSwimlane() {
                     alt={`${product.display}`}
                   />
                   <h4 className="absolute w-30 product-swimlane-item-text">{product.display}</h4>
-                  <h4 className={`${lusitana.className} absolute product-swimlane-item-price`}>{formatCurrency(product.price)}</h4>
+                  <h4 className={`${inter.className} absolute product-swimlane-item-price`}>{formatCurrency(product.price)}</h4>
                   </Link>
               </li>
             );
